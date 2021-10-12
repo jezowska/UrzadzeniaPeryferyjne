@@ -27,5 +27,10 @@ namespace Kamera
             oWebCam = new WebCam();
             oWebCam.Container = pictureBox1;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            oWebCam.SaveImage();
+        }
     }
 }
