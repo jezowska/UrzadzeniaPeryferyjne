@@ -1,0 +1,15 @@
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.csprojAssemblyReference.cache
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.Form1.resources
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.csproj.GenerateResource.cache
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.AssemblyInfoInputs.cache
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.AssemblyInfo.cs
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.csproj.CoreCompileInputs.cache
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\bin\Debug\netcoreapp3.1\Kamera.exe
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\bin\Debug\netcoreapp3.1\Kamera.deps.json
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\bin\Debug\netcoreapp3.1\Kamera.runtimeconfig.json
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\bin\Debug\netcoreapp3.1\Kamera.runtimeconfig.dev.json
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\bin\Debug\netcoreapp3.1\Kamera.dll
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\bin\Debug\netcoreapp3.1\Kamera.pdb
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.dll
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.pdb
+C:\Users\Bartek\source\repos\UrzadzeniaPeryferyjne\Kamera\Kamera\obj\Debug\netcoreapp3.1\Kamera.genruntimeconfig.cache
