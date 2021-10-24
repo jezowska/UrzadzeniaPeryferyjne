@@ -1,0 +1,10 @@
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\bin\Debug\UP_Kamera.exe.config
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\bin\Debug\UP_Kamera.exe
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\bin\Debug\UP_Kamera.pdb
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.csproj.AssemblyReference.cache
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.Form1.resources
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.Properties.Resources.resources
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.csproj.GenerateResource.cache
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.csproj.CoreCompileInputs.cache
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.exe
+C:\Users\daria\source\repos\UP_Kamera\UP_Kamera\obj\Debug\UP_Kamera.pdb
