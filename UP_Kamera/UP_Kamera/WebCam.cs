@@ -25,6 +25,7 @@ namespace UP_Kamera
         private const int WM_CAP_SET_PREVIEWRATE = 0x434;
         private const int WM_CAP_SET_SCALE = 0x435;
         private const int WM_CAP_DLG_VIDEOSOURCE = 0x42A;
+        private const int WM_CAP_GET_VIDEOFORMAT = 0x42C;
         private const int WM_CAP_SEQUENCE = 0x43E;
         private const int WM_CAP_FILE_SAVEAS = 0x417;
         private const int WM_CAP_FILE_SET_CAPTURE_FILEA = 0x414;
@@ -118,13 +119,10 @@ namespace UP_Kamera
                 SendMessage(hHwnd, WM_CAP_SET_SCALE, -1, 0);
                 // Set the preview rate in terms of milliseconds
                 SendMessage(hHwnd, WM_CAP_SET_PREVIEWRATE, 66, 0);
-
                 // Start previewing the image from the camera
                 SendMessage(hHwnd, WM_CAP_SET_PREVIEW, -1, 0);
-
                 // Resize window to fit in picturebox
-                SetWindowPos(hHwnd, HWND_BOTTOM, 0, 0, Container.Height, Container.Width, SWP_NOMOVE | SWP_NOZORDER);
-
+                SetWindowPos(hHwnd, HWND_BOTTOM, 0, 0, 480, 360, SWP_NOMOVE | SWP_NOZORDER);
             }
             else
             {
@@ -135,7 +133,6 @@ namespace UP_Kamera
 
         //Close windows
         void CloseConnection()
-
         {
             SendMessage(hHwnd, WM_CAP_DRIVER_DISCONNECT, DeviceID, 0);
             // close window
@@ -143,7 +140,6 @@ namespace UP_Kamera
         }
 
         //Save image
-
         public void SaveImage()
         {
             IDataObject data;
@@ -167,21 +163,22 @@ namespace UP_Kamera
                 }
             }
         }
+        public void OpenSettings()
+        {
+            SendMessage(hHwnd, WM_CAP_DLG_VIDEOSOURCE, 0, 1);
+        }
         public void StartRecording()
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "(*.avi)|*.avi";
-
+            saveFileDialog.ShowDialog();
             SendMessage(hHwnd, WM_CAP_EDIT_COPY, 0, 0);
-
             SendMessage(hHwnd, WM_CAP_FILE_SET_CAPTURE_FILEA, 0, saveFileDialog.FileName);
             SendMessage(hHwnd, WM_CAP_FILE_SAVEAS, 0, saveFileDialog.FileName);
             SendMessage(hHwnd, WM_CAP_SEQUENCE, DeviceID, 0);
         }
-
         public void StopRecording()
         {
-         //   SendMessage(hHwnd, WM_CAP_FILE_SAVEAS, 0, SaveFileDialog);
             CloseConnection();
         }
 
@@ -189,12 +186,6 @@ namespace UP_Kamera
         /// This function is used to dispose the connection to the device
         /// </summary>
         #region IDisposable Members
-
-        public void OpenSettings()
-        {
-            SendMessage(hHwnd, WM_CAP_DRIVER_CONNECT, 0, 0);
-            SendMessage(hHwnd, WM_CAP_DLG_VIDEOSOURCE, 0, 1);
-        }
         
         public void Dispose()
 

@@ -18,10 +18,7 @@ namespace UP_Kamera
             InitializeComponent();
         }
 
-        private void WebCamBox_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void WebCamBox_Click(object sender, EventArgs e){ }
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
