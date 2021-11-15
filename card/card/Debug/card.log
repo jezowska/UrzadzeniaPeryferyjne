@@ -1,0 +1,20 @@
+﻿  card.cpp
+c:\users\lab\source\repos\card\card\card.cpp(78): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(81): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'WCHAR *'
+  c:\users\lab\source\repos\card\card\card.cpp(81): note: consider using '%ls' in the format string
+  c:\users\lab\source\repos\card\card\card.cpp(81): note: consider using '%lls' in the format string
+  c:\users\lab\source\repos\card\card\card.cpp(81): note: consider using '%Ls' in the format string
+  c:\users\lab\source\repos\card\card\card.cpp(81): note: consider using '%ws' in the format string
+c:\users\lab\source\repos\card\card\card.cpp(123): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'LPWSTR'
+  c:\users\lab\source\repos\card\card\card.cpp(123): note: consider using '%ls' in the format string
+  c:\users\lab\source\repos\card\card\card.cpp(123): note: consider using '%lls' in the format string
+  c:\users\lab\source\repos\card\card\card.cpp(123): note: consider using '%Ls' in the format string
+  c:\users\lab\source\repos\card\card\card.cpp(123): note: consider using '%ws' in the format string
+c:\users\lab\source\repos\card\card\card.cpp(129): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(165): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(189): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(212): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(236): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(260): warning C4018: '<': signed/unsigned mismatch
+c:\users\lab\source\repos\card\card\card.cpp(18): warning C4101: 'rgReaderStates': unreferenced local variable
+  card.vcxproj -> C:\Users\lab\source\repos\card\Debug\card.exe
