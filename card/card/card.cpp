@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 
 	int i, p, iReader;
 	int iReaders[16];
-
+	
 	printf("SCardEstablishContext : ");
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 
@@ -49,6 +49,8 @@ int main(int argc, char **argv)
 	else printf("success\n");
 
 	mszGroups = 0;
+
+	//pobranie listy czytników
 	printf("SCardListReaders : ");
 	rv = SCardListReaders(hContext, mszGroups, 0, &dwReaders);
 
@@ -74,6 +76,7 @@ int main(int argc, char **argv)
 	}
 	else printf("success\n");
 
+	//wybieranie czytnika
 	p = 0;
 	for (i = 0; i < dwReaders - 1; ++i)
 	{
@@ -88,6 +91,7 @@ int main(int argc, char **argv)
 		scanf_s("%d", &iReader);
 	} while (iReader > p || iReader <= 0);
 
+	//nawiązanie połączenia z kartą
 	printf("SCardConnect : ");
 	rv = SCardConnect(hContext, &mszReaders[iReaders[iReader]],
 		SCARD_SHARE_SHARED, SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1,
@@ -132,6 +136,7 @@ int main(int argc, char **argv)
 	}
 	printf("\n");
 
+	//rozpoczynanie transakcji z kartą
 	printf("SCardBeginTransaction : ");
 	rv = SCardBeginTransaction(hCard);
 	if (rv != SCARD_S_SUCCESS)
@@ -144,7 +149,7 @@ int main(int argc, char **argv)
 	}
 	else printf("success\n");
 
-
+	//przesyłanie danych i sczytywanie odpowiedzi APDU
 	BYTE SELECT_TELECOM[] = { 0xA0, 0xA4, 0x00, 0x00, 0x02, 0x7F, 0x10 };
 	printf("SCardTransmit : ");
 	dwRespLen = 30;
@@ -167,7 +172,6 @@ int main(int argc, char **argv)
 		printf("%02X ", pbResp1[i]);
 	}
 	printf("\n");
-
 
 	BYTE GET_RESPONSE[] = { 0xA0, 0xC0, 0x00, 0x00, 0x1A };
 	printf("SCardTransmit : ");
@@ -239,6 +243,7 @@ int main(int argc, char **argv)
 	}
 	printf("\n");
 
+	//czytanie jednego sms'a
 	BYTE READ_RECORD[] = { 0xA0, 0xB2, 0x01, 0x04, 0xB0 };
 	printf("SCardTransmit : ");
 	dwRespLen = 178;
