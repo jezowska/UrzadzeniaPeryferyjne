@@ -1,0 +1,8 @@
+﻿  Silnik krokowy.cpp
+c:\users\lab\desktop\silnik krokowy\silnik krokowy\silnik krokowy.cpp(9): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\lab\desktop\silnik krokowy\silnik krokowy\silnik krokowy.cpp(9): warning C4309: 'initializing': truncation of constant value
+c:\users\lab\desktop\silnik krokowy\silnik krokowy\silnik krokowy.cpp(10): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\lab\desktop\silnik krokowy\silnik krokowy\silnik krokowy.cpp(10): warning C4309: 'initializing': truncation of constant value
+c:\users\lab\desktop\silnik krokowy\silnik krokowy\silnik krokowy.cpp(11): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\lab\desktop\silnik krokowy\silnik krokowy\silnik krokowy.cpp(11): warning C4309: 'initializing': truncation of constant value
+  Silnik krokowy.vcxproj -> C:\Users\lab\Desktop\Silnik krokowy\Debug\Silnik krokowy.exe
