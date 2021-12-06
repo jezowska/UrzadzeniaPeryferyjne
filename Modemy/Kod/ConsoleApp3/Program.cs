@@ -14,8 +14,6 @@ namespace ConsoleApp3
 
         static void Main(string[] args)
         {
-
-            string name;
             string message = "";
             StringComparer stringComparer = StringComparer.OrdinalIgnoreCase;
 
@@ -31,7 +29,7 @@ namespace ConsoleApp3
             _serialPort.Open();
             _continue = true;
 
-
+            
             readThread.Start();
 
             //Console.Write("Name: ");
