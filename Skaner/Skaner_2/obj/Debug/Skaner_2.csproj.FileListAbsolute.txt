@@ -1,0 +1,21 @@
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.csprojAssemblyReference.cache
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.Properties.Resources.resources
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.csproj.GenerateResource.cache
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.csproj.CoreCompileInputs.cache
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.Form1.resources
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\bin\Debug\Skaner_2.exe.config
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\bin\Debug\Skaner_2.exe
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\bin\Debug\Skaner_2.pdb
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.exe
+C:\Users\lab\source\repos\Skaner_2\Skaner_2\obj\Debug\Skaner_2.pdb
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\bin\Debug\Skaner_2.exe.config
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\bin\Debug\Skaner_2.exe
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\bin\Debug\Skaner_2.pdb
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.csproj.AssemblyReference.cache
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.Form1.resources
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.Properties.Resources.resources
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.csproj.GenerateResource.cache
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.csproj.CoreCompileInputs.cache
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.exe
+C:\Users\daria\Documents\Semestr V\UP\Skaner_2\obj\Debug\Skaner_2.pdb
