@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "H0WUD8/A6GHQ0cjqaj1bfGJxWotlPzu3Df/c0765EBueaEbe9DuX2RV1VRnczkY5D7zIWEMSTbZDko0DyN54ZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\daria\\source\\repos\\KartaMuzyczna\\KartaMuzyczna\\KartaMuzyczna.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daria\\.nuget\\packages\\wmplib\\1.0.0\\wmplib.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „WMPLib 1.0.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „net6.0-windows7.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "WMPLib",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
